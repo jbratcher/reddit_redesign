@@ -1,15 +1,15 @@
-# Gulp Live Reload Dev Environment
+# Reddit Redesign
 
-Live Reload via Gulp for SASS
+Recreating the new Reddit Redesign
 
 ### Version
 
-1.0.6
+0.0.1
 
 ## Install Dependencies
 
 ```bash
-npm install 
+npm install
 ```
 
 ## Compile Sass & Run Dev Server
@@ -68,39 +68,22 @@ gulp build
 gulp clean:dist
 ```
 
-## Features: 
+## Features:
 
-* Sass compiles in to CSS 
-* JS and CSS are bundled and minified
-* Images are optimized and cached
-* Font Awesome icons are loaded
-* Server is started and refreshes on save
-* Autoprefix CSS
-* Complile ES6 to ES5
-* Written in ES6
+* Bootstrap 4
+* FontAwesome 5
 
 
 ## Future Features:
 
-* Cleaner workflow
-* Webpack
-
+* Infinite Scroll (no footer needed)
+* 
 
 ## Known "bugs"
-
-* 'browerSync' task not allowing sass to reload, hotfixed
 
 
 #### Change Log
 
-###### 1.0.6
+###### 0.0.1
 
-* Converted to ES6, fixed JS, CSS bug with minified files
-
-###### 1.0.5
-
-* Upgraded to Gulp v4
-
-###### 1.0.4
-
-* Removed jsuglify to use babel complier, will work on fix
+* initial setup and commit
